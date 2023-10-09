@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import TreeView from './TreeView';
 
 export const App = () => {
-  const [root, setRoot] = useState([
+  const root = [
     {
       id: 1,
       label: 'Body',
@@ -16,11 +16,9 @@ export const App = () => {
         { id: 4, label: 'Footer', children: [] },
       ],
     },
-  ]);
+  ]
 
-  // useEffect(() => {
-  //   localStorage.setItem('root', root);
-  // }, [root]);
+
 
   const renderTree = nodes => {
     return nodes.map((node, index) => (

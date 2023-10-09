@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TreeNode/static/css/main.7acaea2f.css",
+    "main.js": "/TreeNode/static/js/main.6c2a2d1a.js",
+    "index.html": "/TreeNode/index.html",
+    "main.7acaea2f.css.map": "/TreeNode/static/css/main.7acaea2f.css.map",
+    "main.6c2a2d1a.js.map": "/TreeNode/static/js/main.6c2a2d1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.6c2a2d1a.js"
+  ]
+}
